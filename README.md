@@ -3,6 +3,6 @@ Store passwords in json format inside eeprom. Remove eeprom after powering-up mi
 
 I have some wifi connected sensors in my yard and did not want to leave my wifi and email passwords on them. I connect an eeprom board with a Stemma cable and then remove it a couple seconds after it boots. Now all the sensitive information is stored in the MCU's volatile sram.
 
-I use an [Adafruit eeprom with Stemma connectors](https://www.adafruit.com/product/5146) as my removable memory device.
+I use a [Sparkfun eeprom with Stemma connectors](https://www.sparkfun.com/sparkfun-qwiic-eeprom-breakout-512kbit.html) as my removable memory device. The write buffer is 128 bytes.
 
-![picture](https://cdn-shop.adafruit.com/970x728/5146-01.jpg)
+![picture](https://www.sparkfun.com/media/catalog/product/cache/f3020b7489dcfc4d1d147cf4dad07b7f/1/8/18355-SparkFun_Qwiic_EEPROM_Breakout_-_512Kbit-02.jpg)
